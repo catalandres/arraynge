@@ -1,4 +1,4 @@
-export function arraynge<Type>(input: Type | Type[] | undefined): Type[] {
+export function array<Type>(input: Type | Type[] | undefined): Type[] {
     if (input === undefined) {
         return [];
     } else {

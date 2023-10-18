@@ -1,6 +1,6 @@
 {
   "name": "arraysure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ensures that any \"type[] | type | undefined\" variable behaves like a proper array.",
   "main": "index.js",
   "scripts": {
