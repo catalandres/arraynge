@@ -1,4 +1,4 @@
-export function array<Type>(input: Type | Type[] | undefined): Type[] {
+export default function array<Type>(input: Type | Type[] | undefined): Type[] {
     if (input === undefined) {
         return [];
     } else {

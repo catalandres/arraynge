@@ -1,42 +1,42 @@
-import { arraynge } from "..";
+import { array } from "../index";
 
-describe('arraynge', 
+describe('array', 
 
     () => {
 
         it('should return an empty array when given undefined', 
             () => {
-                expect(arraynge(undefined)).toEqual([]);
+                expect(array(undefined)).toEqual([]);
             }
         );
 
         it('should return an array with one element when given a single element', 
             () => {
-                expect(arraynge(1)).toEqual([1]);
+                expect(array(1)).toEqual([1]);
             }
         );
 
         it('should return an array with multiple elements when given multiple elements',
             () => {
-                expect(arraynge([1, 2, 3])).toEqual([1, 2, 3]);
+                expect(array([1, 2, 3])).toEqual([1, 2, 3]);
             }
         );
 
         it('should return an empty array when given an empty array',
             () => {
-                expect(arraynge([])).toEqual([]);
+                expect(array([])).toEqual([]);
             }
         );
 
         it('should return an empty string in an array when given an empty string',
             () => {
-                expect(arraynge('')).toEqual(['']);
+                expect(array('')).toEqual(['']);
             }
         );
 
         it('should return an array with mixed types when given mixed types',
             () => {
-                expect(arraynge([1, '2', 3])).toEqual([1, '2', 3]);
+                expect(array([1, '2', 3])).toEqual([1, '2', 3]);
             }
         );
 
